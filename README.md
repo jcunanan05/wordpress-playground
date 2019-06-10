@@ -1,11 +1,15 @@
-# Docker Wordpress
+# Wordpress Playground
 
-Configured Wordpress Development environment powered by Docker.
+Messing around with wordpress. Powered by docker.
 
-## Why?
+## Running locally
 
-I experienced the pain of troubleshooting / setting up wordpress dev environment in my local machine. And Docker is a good solution for that.
+You need docker to be installed in your local machine.
 
-### How to run
+To run:
 
--
+- `docker-compose up -d`
+
+To stop and remove all containers and volumes
+
+- `docker-compose down --volumes`
